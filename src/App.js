@@ -16,7 +16,7 @@ function App() {
     });
   }, []);
   return (
-    <BrowserRouter basename="/">
+    <BrowserRouter basename="/my-react-website/">
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/home" element={<Home />} />
