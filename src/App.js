@@ -1,7 +1,7 @@
 import './App.css';
 import React from 'react';
 import { useEffect } from 'react';
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { HashRouter, Routes, Route } from 'react-router-dom';
 import Home from './component/Pages/Home/Home';
 import './assets/css/style.css';
 import './assets/css/media.css';
@@ -16,13 +16,13 @@ function App() {
     });
   }, []);
   return (
-    <BrowserRouter basename="/my-react-website/">
+    <HashRouter basename="/">
       <Routes>
-        <Route path="/my-react-website/" element={<Home />} />
+        <Route path="/" element={<Home />} />
         <Route path="/home" element={<Home />} />
         {/* Add more routes here as needed */}
       </Routes>
-    </BrowserRouter>
+    </HashRouter>
   );
 }
 
