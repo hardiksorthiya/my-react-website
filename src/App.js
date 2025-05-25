@@ -18,7 +18,7 @@ function App() {
   return (
     <BrowserRouter basename="/my-react-website/">
       <Routes>
-        <Route path="/" element={<Home />} />
+        <Route path="/my-react-website/" element={<Home />} />
         <Route path="/home" element={<Home />} />
         {/* Add more routes here as needed */}
       </Routes>
