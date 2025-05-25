@@ -1,0 +1,41 @@
+@media screen and (min-width: 1025px) {
+    div#navbar-ckf a {
+       padding: 13px !important;
+    }
+}
+
+@media (min-width: 1200px) {
+    .h2, h2 {
+        font-size: 2.5rem !important;
+    }
+}
+
+@media (max-width: 1025px) {
+.user img {
+    z-index: 2;
+    max-width: 64px;
+}
+}
+
+@media (max-width: 490px) {
+    .user img {
+        max-width: 40px;
+    }
+    .user1:after, .user2:after, .user3:after, .user4:after, .user5:after {
+        height: 30px;
+}
+.user3 {
+    top: -30px;
+}
+.user4 {
+    top: -20px;
+}
+.user5 {
+    top: 46px;
+    left: 80%;
+}
+.user2 {
+    top: 40px;
+    left: 44%;
+}
+}
