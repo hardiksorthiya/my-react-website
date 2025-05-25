@@ -32,7 +32,7 @@ export default function Hero() {
         className="cloud-image-four img-fluid"
       />
 
-      <Container>
+      <Container className="position-relative">
         <Row className="align-items-center">
           {/* LEFT SIDE: TEXT */}
           <Col lg={6} md={12} data-aos="fade-right" data-aos-duration="1500" data-aos-delay="500">

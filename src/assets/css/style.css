@@ -6,6 +6,7 @@
     --title-ckf-color: #161632;
     --text-ckf-color: #344054;
     --font-ckf-family: 'Rubik', sans-serif;
+    --dark-blue-color: #0f0c2e;
 }
 
 body,
@@ -23,6 +24,7 @@ h6,
 a {
     font-family: var(--font-ckf-family);
     box-sizing: border-box;
+    list-style: none;
 }
 
 p {
@@ -31,11 +33,12 @@ p {
 
 a {
     text-decoration: none !important;
+    color: inherit !important;
 }
 
 /* Navbar */
 div#navbar-ckf a {
-    color: white;
+    color: white !important;
     font-family: var(--font-ckf-family)
 }
 
@@ -259,11 +262,10 @@ div#image-circle-section {
 
 .planspace {
     position: absolute;
-    /* bottom: -34%; */
+    top: 100%;
     right: -2%;
     z-index: 1;
-    animation: plane-movement 10s infinite alternate;
-    animation-timing-function: ease-in-out;
+    animation: plane-movement 6s ease-in-out infinite;
 }
 
 section.hero-section {
@@ -392,10 +394,6 @@ section.about-home {
     font-weight: 600;
 }
 /* testimonial */
-.testiMonial-home{
-    background: #0f0c2e;
-    color: #fff;
-}
 .slider-ckf-hp{
     background: #fff;
     border-radius: 15px;
@@ -478,6 +476,29 @@ img.cloud-image-eight.img-fluid {
     padding: 50px 0 0;
 }
 
+/* footer */
+
+footer {
+    padding: 30px 0;
+}
+a.logo-footer {
+    margin-right: 20px;
+}
+footer ul{
+    padding: 0;
+    line-height: 40px;
+}
+.social-icon
+{fill:none;stroke:#fff;}
+
+svg#social-footer-icon {
+    width: 30px;
+    height: 30px;
+}
+.social-icons-ftr a {
+    margin-left: 20px;
+}
+
 
 
 
@@ -506,16 +527,22 @@ img.cloud-image-eight.img-fluid {
     
 }
 
+
+
 @keyframes plane-movement {
     0% {
-        transform: translateX(0) translateY(0);
-        opacity: 0;
-
-    }
-
-    100% {
-        transform: translatey(2500px) translateX(600px);
-        opacity: 1;
-    }
+    transform: translateY(100vh) translateX(100px) rotate(0); /* Start off-screen bottom */
+    opacity: 0;
+  }
+  10% {
+    opacity: 1;
+  }
+  90% {
+    opacity: 1;
+  }
+  100% {
+    transform: translateY(-1200px) translateX(-400px) rotate(-10deg); /* Move off-screen top */
+    opacity: 0;
+  }
     
 }
