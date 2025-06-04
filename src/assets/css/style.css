@@ -290,7 +290,9 @@ section.about-home {
 .map-hp-path {
     fill: var(--secondary-ckf-color);
 }
-
+.service-card img {
+    width: 60px;
+}
 .user {
     position: absolute;
     border: 4px solid var(--primary-ckf-color);

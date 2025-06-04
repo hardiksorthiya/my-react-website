@@ -11,12 +11,12 @@ export default function ContactSection() {
           {/* Form Side */}
           <Col lg={6} md={12} className="mb-4">
           <h2 className="left-about-content-home">
-              Let’s discuss how we can help with your journey
+              Let’s Talk About Your Next Big Move
               <span className="orange-dot">.</span>
             </h2>
             <p className="right-about-content-home">
-             From project-specific support to managed services, we help you become stronger, fitter and faster with public cloud.
-            </p>
+             From strategy to execution, we help organizations unlock value through technology.
+Tell us what you need — we’re listening and ready to deliver.</p>
             <Form>
               <Row>
                 <Col md={6}>

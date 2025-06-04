@@ -8,16 +8,13 @@ export default function About() {
         <Row>
           <Col lg={6} md={12}>
             <h2 className="left-about-content-home">
-              Clients say working with us is like having a compass
+              We don’t just code — we chart your growth journey
               <span className="orange-dot">.</span>
             </h2>
           </Col>
           <Col lg={6} md={12}>
             <p className="right-about-content-home">
-              Our team of skilled and motivated experts is committed to
-              achieving excellence in every project. With a focus on quality,
-              innovation, and customer satisfaction, we set ourselves apart in
-              the industry.
+              At CloudKodeForm Technologies, we don’t just build solutions — we empower businesses to move forward with purpose. With a passionate team, cutting-edge technology, and a commitment to excellence, we deliver results that drive real impact.
             </p>
             <Button className="third-button">
               <span className="me-2">MORE ABOUT US</span>

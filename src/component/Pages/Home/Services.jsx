@@ -2,68 +2,72 @@ import React from "react";
 import { Link } from "react-router-dom";
 import { Container, Row, Col, Card } from "react-bootstrap";
 import MobileAppicon from "./../../../assets/images/mobileapp.svg";
+import Cloudserviceicon from "./../../../assets/images/cloud-c.svg";
+import Aiserviceicon from "./../../../assets/images/aiicon.svg";
 
 const services = [
   {
     icon: MobileAppicon,
-    title: "Artificial intelligence",
+    title: "Mobile App Development",
     link: "#ser",
     features: [
-      "User-Friendly Interface",
-      "Cloud Integration",
-      "SEO & ASO Optimization",
-      "Robust Security",
+      "Custom Android & iOS apps tailored to your business",
+      "Scalable, secure, and user-friendly interfaces",
+      "Native & cross-platform solutions",
+      "Fast development with clean UI/UX",
       "Custom Features",
     ],
   },
   {
-    title: "Artificial intelligence",
+    icon: Cloudserviceicon,
+    title: "Cloud Services",
     features: [
-      "User-Friendly Interface",
-      "Cloud Integration",
-      "SEO & ASO Optimization",
-      "Robust Security",
-      "Custom Features",
+      "Scalable cloud server setups & migration",
+      "Secure and reliable cloud infrastructure",
+      "Cost-effective resource management",
+      "High uptime & data accessibility",
+      "Integration with AWS, Azure, Google Cloud",
     ],
   },
   {
+    icon: Aiserviceicon,
     title: "Artificial intelligence",
     features: [
-      "User-Friendly Interface",
-      "Cloud Integration",
-      "SEO & ASO Optimization",
-      "Robust Security",
-      "Custom Features",
+      "Smart data-driven business solutions",
+      "AI-powered analytics and insights",
+      "Automation for workflows & processes",
+      "Machine learning models tailored to industry",
+      "Enhance user experience with intelligent features",
     ],
   },
   {
-    title: "Artificial intelligence",
+    title: "Migration Services",
     features: [
-      "User-Friendly Interface",
-      "Cloud Integration",
-      "SEO & ASO Optimization",
-      "Robust Security",
-      "Custom Features",
+      "Hassle-free migration to modern platforms",
+      "Minimal downtime & secure data transfer",
+      "Cloud migration from legacy systems",
+      "Improved scalability & system performance",
+      "Full post-migration support",
     ],
   },
   {
-    title: "Artificial intelligence",
+    title: "DevOps Solutions",
     features: [
-      "User-Friendly Interface",
-      "Cloud Integration",
-      "SEO & ASO Optimization",
-      "Robust Security",
-      "Custom Features",
+      "Continuous Integration & Deployment (CI/CD)",
+      "Automated testing & build pipelines",
+      "Infrastructure as Code (IaC) setup",
+      "Faster delivery with fewer errors",
+      "Improved collaboration between dev & ops",
     ],
   },
   {
-    title: "Artificial intelligence",
+    title: "Microservices Architecture",
     features: [
-      "User-Friendly Interface",
-      "Cloud Integration",
-      "SEO & ASO Optimization",
-      "Robust Security",
-      "Custom Features",
+      "Lightweight, independent service modules",
+      "Easy scaling & maintenance",
+      "Faster time to market for new features",
+      "Technology-agnostic development",
+      "Robust & flexible architecture",
     ],
   },
 ];
@@ -75,15 +79,11 @@ export default function Services() {
         <Row>
           <Col lg={7} md={7}>
             <h2 className="left-about-content-home">
-              Accelerate time to market, maximise cost savings and realise
-              growth ambitions
+              Build Smarter. Launch Faster. Grow Stronger
               <span className="orange-dot">.</span>
             </h2>
             <p className="right-about-content-home">
-              Our team of skilled and motivated experts is committed to
-              achieving excellence in every project. With a focus on quality,
-              innovation, and customer satisfaction, we set ourselves apart in
-              the industry.
+              We combine innovation, technology, and expertise to build reliable, custom IT solutions that help businesses move faster, scale smarter, and grow stronger.
             </p>
           </Col>
         </Row>

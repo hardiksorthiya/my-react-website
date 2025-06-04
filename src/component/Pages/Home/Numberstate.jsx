@@ -15,13 +15,12 @@ export default function Numberstate() {
       <Container>
         <Row>
           <Col className=" text-center">
-            <h4>Together we simplify the IT landscape</h4>
+            <h4>Your Next Big Leap Starts Here</h4>
             <h2 className="left-about-content-home">
-              A powerful global Client with us
+              We Grow With Every Client We Serve
             </h2>
             <p className="right-about-content-home">
-              From project-specific support to managed services, we help you
-              become stronger, fitter and faster with public cloud.
+              From one-time projects to ongoing partnerships, we’re here to support your goals with agility and expertise.
             </p>
             <Button className="me-3 ckf-button-dark">
               <span className="me-2">Join With Us</span>
