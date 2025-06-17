@@ -1,15 +1,18 @@
 {
   "files": {
-    "main.css": "/my-react-website/static/css/main.b18a44f6.css",
-    "main.js": "/my-react-website/static/js/main.2a22c440.js",
-    "static/js/488.c56db2da.chunk.js": "/my-react-website/static/js/488.c56db2da.chunk.js",
+    "main.css": "/my-react-website/static/css/main.b63d47ae.css",
+    "main.js": "/my-react-website/static/js/main.270825f0.js",
+    "static/js/488.f00d2573.chunk.js": "/my-react-website/static/js/488.f00d2573.chunk.js",
     "static/media/men.svg": "/my-react-website/static/media/men.ad664563b3c00f0c322ef8011c37e0dd.svg",
     "static/media/user_image_1.svg": "/my-react-website/static/media/user_image_1.debf5bc3eef5b38fbe017099b9b1d7e6.svg",
+    "static/media/cloud-journey-scaled.jpg": "/my-react-website/static/media/cloud-journey-scaled.e541d3f9753f71788d42.jpg",
     "static/media/hero.svg": "/my-react-website/static/media/hero.5eb9e91924574fa08a8edc9422100314.svg",
     "static/media/logo.svg": "/my-react-website/static/media/logo.c2e508b6ab40864d0b7486d773a22ec0.svg",
-    "static/media/mobileapp.svg": "/my-react-website/static/media/mobileapp.e1502357073ed79c3f8cee451f5da0e1.svg",
     "static/media/iso.svg": "/my-react-website/static/media/iso.563051d38df7749d4a7b269a270b947d.svg",
     "static/media/airspace.svg": "/my-react-website/static/media/airspace.3545bed4d3d48aa30d694d1eb0ee26b7.svg",
+    "static/media/cloud-c.svg": "/my-react-website/static/media/cloud-c.9d98129d039ef9c39012d44ee3ddee58.svg",
+    "static/media/mobileapp.svg": "/my-react-website/static/media/mobileapp.1fe0b8c01ff8ce426e4d285e36823c38.svg",
+    "static/media/aiicon.svg": "/my-react-website/static/media/aiicon.b697ca0ed15871622290412894c0f95e.svg",
     "static/media/slick.svg": "/my-react-website/static/media/slick.2630a3e3eab21c607e21.svg",
     "static/media/slick.eot": "/my-react-website/static/media/slick.a4e97f5a2a64f0ab1323.eot",
     "static/media/cloud5.svg": "/my-react-website/static/media/cloud5.173879788c0e4e898711be51ec82ab65.svg",
@@ -23,12 +26,12 @@
     "static/media/cloud3.svg": "/my-react-website/static/media/cloud3.748d62fa7c5a09503879d2cf18eaa2a2.svg",
     "static/media/cloud1.svg": "/my-react-website/static/media/cloud1.0748c302ce7e7b4d23d25f2d3c49f8ed.svg",
     "index.html": "/my-react-website/index.html",
-    "main.b18a44f6.css.map": "/my-react-website/static/css/main.b18a44f6.css.map",
-    "main.2a22c440.js.map": "/my-react-website/static/js/main.2a22c440.js.map",
-    "488.c56db2da.chunk.js.map": "/my-react-website/static/js/488.c56db2da.chunk.js.map"
+    "main.b63d47ae.css.map": "/my-react-website/static/css/main.b63d47ae.css.map",
+    "main.270825f0.js.map": "/my-react-website/static/js/main.270825f0.js.map",
+    "488.f00d2573.chunk.js.map": "/my-react-website/static/js/488.f00d2573.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b18a44f6.css",
-    "static/js/main.2a22c440.js"
+    "static/css/main.b63d47ae.css",
+    "static/js/main.270825f0.js"
   ]
 }
