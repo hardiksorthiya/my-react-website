@@ -1,0 +1,21 @@
+.breadcrumb-wrapper {
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.6));
+  overflow: hidden;
+}
+.breadcrumb-bg{
+    top: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.6); /* Adjust darkness here */
+  z-index: 1;
+  pointer-events: none;
+  width: 100%;
+    height: 100%;
+}
+.breadcumb-text {
+    padding: 90px 0px;
+    max-width: 680px;
+}
+ul.custom-bullet li {
+    list-style: disc;
+    line-height: 30px;
+}

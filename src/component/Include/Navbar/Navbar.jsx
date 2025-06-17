@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { Link } from 'react-router-dom';
 import { Navbar, Nav, NavDropdown, Button, Container, Offcanvas } from 'react-bootstrap';
 import Logo from '../../../assets/images/logo.svg'
 
@@ -12,7 +13,7 @@ export default function HNavbar() {
     <Navbar expand="lg" className="navbar-dark ckf-dark-bg py-3">
         <Container>
           {/* LOGO LEFT */}
-          <Navbar.Brand href="#">
+          <Navbar.Brand href="/">
             <img
               src={Logo} // replace with your logo path
               alt="CloudKodeForm"
@@ -28,11 +29,15 @@ export default function HNavbar() {
           {/* CENTER MENU */}
           <Nav className="mx-auto d-none d-lg-flex" id='navbar-ckf'>
             <NavDropdown title="Services" id="services-dropdown">
-              <NavDropdown.Item href="#service1">Service 1</NavDropdown.Item>
-              <NavDropdown.Item href="#service2">Service 2</NavDropdown.Item>
+              <NavDropdown.Item as={Link} to="/services/mobileapp">Mobile App Development</NavDropdown.Item>
+              <NavDropdown.Item href="/services/cloudservice">Cloud Services</NavDropdown.Item>
+              <NavDropdown.Item href="/services/ai">Artificial intelligence</NavDropdown.Item>
+              <NavDropdown.Item href="/services/migration">Migration Services</NavDropdown.Item>
+              <NavDropdown.Item href="/services/devops">DevOps Solutions</NavDropdown.Item>
+              <NavDropdown.Item href="/services/micro">Microservices Architecture</NavDropdown.Item>
             </NavDropdown>
 
-            <NavDropdown title="Technology" id="technology-dropdown">
+            <NavDropdown title="Technology" id="technology-dropdown" >
               <NavDropdown.Item href="#tech1">Tech 1</NavDropdown.Item>
               <NavDropdown.Item href="#tech2">Tech 2</NavDropdown.Item>
             </NavDropdown>

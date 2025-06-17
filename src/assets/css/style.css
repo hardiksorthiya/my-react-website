@@ -38,10 +38,14 @@ a {
 
 /* Navbar */
 div#navbar-ckf a {
-    color: white !important;
     font-family: var(--font-ckf-family)
 }
-
+a.nav-link {
+    color: white !important;
+}
+a.dropdown-item {
+    color: #161632 !important;
+}
 .ckf-button-dark {
     background: var(--primary-ckf-color) !important;
     color: #fff;
