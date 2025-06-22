@@ -13,7 +13,7 @@ export default function HNavbar() {
     <Navbar expand="lg" className="navbar-dark ckf-dark-bg py-3">
         <Container>
           {/* LOGO LEFT */}
-          <Navbar.Brand href="/">
+          <Navbar.Brand as={Link} to="/">
             <img
               src={Logo} // replace with your logo path
               alt="CloudKodeForm"
@@ -30,11 +30,11 @@ export default function HNavbar() {
           <Nav className="mx-auto d-none d-lg-flex" id='navbar-ckf'>
             <NavDropdown title="Services" id="services-dropdown">
               <NavDropdown.Item as={Link} to="/services/mobileapp">Mobile App Development</NavDropdown.Item>
-              <NavDropdown.Item href="/services/cloudservice">Cloud Services</NavDropdown.Item>
-              <NavDropdown.Item href="/services/ai">Artificial intelligence</NavDropdown.Item>
-              <NavDropdown.Item href="/services/migration">Migration Services</NavDropdown.Item>
-              <NavDropdown.Item href="/services/devops">DevOps Solutions</NavDropdown.Item>
-              <NavDropdown.Item href="/services/micro">Microservices Architecture</NavDropdown.Item>
+              <NavDropdown.Item as={Link} to="/services/cloudservice">Cloud Services</NavDropdown.Item>
+              <NavDropdown.Item as={Link} to="/services/ai">Artificial intelligence</NavDropdown.Item>
+              <NavDropdown.Item as={Link} to="/services/migration">Migration Services</NavDropdown.Item>
+              <NavDropdown.Item as={Link} to="/services/devops">DevOps Solutions</NavDropdown.Item>
+              <NavDropdown.Item as={Link} to="/services/micro">Microservices Architecture</NavDropdown.Item>
             </NavDropdown>
 
             <NavDropdown title="Technology" id="technology-dropdown" >

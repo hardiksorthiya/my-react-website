@@ -1,4 +1,4 @@
-import { FaFacebookF, FaInstagram, FaLinkedinIn, FaTwitter } from "react-icons/fa";
+import { Link } from 'react-router-dom';
 import { Container, Row, Col } from "react-bootstrap";
 import Logo from '../../../assets/images/logo.svg'
 import Iso from '../../../assets/images/iso.svg'
@@ -12,12 +12,13 @@ const Footer = () => {
           <Col lg={3} md={6} sm={12} className="mb-4">
             <h3 className="text-lg font-semibold mb-4">Services</h3>
             <ul className="space-y-2 text-sm">
-              <li><a href="/services/mobile-app">Mobile App</a></li>
-              <li><a href="/services/micro-services">Micro Services</a></li>
-              <li><a href="/services/cloud">Cloud Services</a></li>
-              <li><a href="/services/migration">Migration</a></li>
-              <li><a href="/services/devops">Dev Ops</a></li>
-              <li><a href="/services/ai">Artificial Intelligence</a></li>
+              <li><Link to="/services/mobileapp">Mobile App</Link></li>
+              <li><Link to="/services/cloudservice">Cloud Services</Link></li>
+              <li><Link to="/services/ai">Artificial Intelligence</Link></li>
+              <li><Link to="/services/migration">Migration</Link></li>
+              <li><Link to="/services/devops">Dev Ops</Link></li>
+              <li><Link to="/services/micro">Micro Services</Link></li>
+
             </ul>
           </Col>
           <Col lg={3} md={6} sm={12} className="mb-4">
@@ -33,22 +34,23 @@ const Footer = () => {
           <Col lg={3} md={6} sm={12} className="mb-4">
             <h3 className="text-lg font-semibold mb-4">Company</h3>
             <ul className="space-y-2 text-sm">
-              <li><a href="/contact">Contact</a></li>
-              <li><a href="/about">About Us</a></li>
-              <li><a href="/career">Career</a></li>
-              <li><a href="/portfolio">Portfolio</a></li>
-              <li><a href="/case-study">Case Study</a></li>
+              <li><Link to="/contact">Contact</Link></li>
+              <li><Link to="/about">About Us</Link></li>
+              <li><Link to="/team">Our Team</Link></li>
+              <li><Link to="/career">Career</Link></li>
+              <li><Link to="/portfolio">Portfolio</Link></li>
+              <li><Link to="/case-study">Case Study</Link></li>
             </ul>
           </Col>
           <Col lg={3} md={6} sm={12} className="mb-4">
             <h3 className="text-lg font-semibold mb-4">Policies</h3>
             <ul className="space-y-2 text-sm">
-              <li><a href="/privacy-policy">Privacy Policy</a></li>
-              <li><a href="/recruitment-privacy-policy">Recruitment Privacy Policy</a></li>
-              <li><a href="/cookies">Cookies</a></li>
-              <li><a href="/cookies-settings">Cookies Settings</a></li>
-              <li><a href="/feedback">Feedback</a></li>
-              <li><a href="/security">Security</a></li>
+              <li><Link to="/privacy-policy">Privacy Policy</Link></li>
+              <li><Link to="/recruitment-privacy-policy">Recruitment Privacy Policy</Link></li>
+              <li><Link to="/cookies">Cookies</Link></li>
+              <li><Link to="/cookies-settings">Cookies Settings</Link></li>
+              <li><Link to="/feedback">Feedback</Link></li>
+              <li><Link to="/security">Security</Link></li>
             </ul>
           </Col>
         </Row>

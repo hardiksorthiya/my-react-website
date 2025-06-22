@@ -1,4 +1,4 @@
-import MobileAppBreadcumb from '../../../../assets/images/services/cloud-journey-scaled.jpg';
+import MobileAppBreadcumb from '../../../../assets/images/services/mobileapp/breadcum.png';
 const breadcrumbData = {
   mobileapp: {
     path: [

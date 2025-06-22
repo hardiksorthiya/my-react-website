@@ -4,6 +4,9 @@ import { Container, Row, Col, Card } from "react-bootstrap";
 import MobileAppicon from "./../../../assets/images/mobileapp.svg";
 import Cloudserviceicon from "./../../../assets/images/cloud-c.svg";
 import Aiserviceicon from "./../../../assets/images/aiicon.svg";
+import Migration from "./../../../assets/images/migrationserv.svg";
+import DevOpsicon from "./../../../assets/images/devops.svg";
+import MicroService from "./../../../assets/images/micro.svg";
 
 const services = [
   {
@@ -41,6 +44,7 @@ const services = [
     ],
   },
   {
+    icon: Migration,
     title: "Migration Services",
     features: [
       "Hassle-free migration to modern platforms",
@@ -51,6 +55,7 @@ const services = [
     ],
   },
   {
+    icon: DevOpsicon,
     title: "DevOps Solutions",
     features: [
       "Continuous Integration & Deployment (CI/CD)",
@@ -61,6 +66,7 @@ const services = [
     ],
   },
   {
+    icon: MicroService,
     title: "Microservices Architecture",
     features: [
       "Lightweight, independent service modules",

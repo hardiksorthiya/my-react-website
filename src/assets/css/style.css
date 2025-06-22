@@ -495,16 +495,22 @@ footer ul{
     line-height: 40px;
 }
 .social-icon
-{fill:none;stroke:#fff;}
+{fill:#fff}
 
 svg#social-footer-icon {
-    width: 30px;
-    height: 30px;
+    width: 20px;
+    height: 20px;
 }
 .social-icons-ftr a {
     margin-left: 20px;
 }
 
+/* other pages */
+
+section.sorath-policy-wrapper ul li {
+    list-style: disc;
+    line-height: 40px;
+}
 
 
 

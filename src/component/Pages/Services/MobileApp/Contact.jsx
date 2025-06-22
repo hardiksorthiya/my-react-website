@@ -30,7 +30,7 @@ export default function ServiceTopSection({ data }) {
             
           </Col>
           <Col lg={6} md={6} className="text-center mt-4 mt-md-0">
-            <img src={data.image} alt="Service" className="img-fluid" />
+            <img src={data.image} alt="Service" className="img-fluid sevices-sorath-img-page" />
           </Col>
         </Row>
       </Container>

@@ -5,7 +5,6 @@
 .breadcrumb-bg{
     top: 0;
   left: 0;
-  background: rgba(0, 0, 0, 0.6); /* Adjust darkness here */
   z-index: 1;
   pointer-events: none;
   width: 100%;
@@ -18,4 +17,9 @@
 ul.custom-bullet li {
     list-style: disc;
     line-height: 30px;
+}
+@media screen and (min-width:1025px)  {
+  .sevices-sorath-img-page{
+  width: 60%;
+}
 }
