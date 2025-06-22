@@ -26,6 +26,7 @@ import './assets/css/media.css';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import About from './component/Pages/About/Index';
 
 function App() {
   useEffect(() => {
@@ -57,6 +58,7 @@ function App() {
         <Route path="/case-studies/category/:category" element={<CategoryCaseStudies />} />
         <Route path='/portfolio' element={<Portfolio />} />
         <Route path='/team' element={<OurTeam />} />
+        <Route path='/about' element={<About/>} />
 
         {/* Add more routes here as needed */}
       </Routes>

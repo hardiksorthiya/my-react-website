@@ -4,14 +4,14 @@ import  CountUp  from 'react-countup';
 import { useInView } from 'react-intersection-observer';
 import user_image from "../../../assets/images/user_image_1.svg";
 
-export default function Numberstate() {
+export default function Numberstate({ sectionId }) {
     const [ref, inView] = useInView({
         triggerOnce: true,
         threshold: 0.5,
       });
     
   return (
-    <section>
+    <section id={sectionId} className="number-state">
       <Container>
         <Row>
           <Col className=" text-center">
