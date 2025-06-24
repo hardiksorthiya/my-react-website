@@ -1,18 +1,26 @@
 {
   "files": {
-    "main.css": "/my-react-website/static/css/main.b63d47ae.css",
-    "main.js": "/my-react-website/static/js/main.350cc484.js",
+    "main.css": "/my-react-website/static/css/main.166a82a6.css",
+    "main.js": "/my-react-website/static/js/main.c0ecaf41.js",
     "static/js/488.f00d2573.chunk.js": "/my-react-website/static/js/488.f00d2573.chunk.js",
     "static/media/men.svg": "/my-react-website/static/media/men.ad664563b3c00f0c322ef8011c37e0dd.svg",
     "static/media/user_image_1.svg": "/my-react-website/static/media/user_image_1.debf5bc3eef5b38fbe017099b9b1d7e6.svg",
-    "static/media/cloud-journey-scaled.jpg": "/my-react-website/static/media/cloud-journey-scaled.e541d3f9753f71788d42.jpg",
+    "static/media/breadcum.png": "/my-react-website/static/media/breadcum.258c4d718d0ce486ebe5.png",
+    "static/media/uiux.svg": "/my-react-website/static/media/uiux.17814997619c2091ba4be1360f78fe65.svg",
+    "static/media/MA.svg": "/my-react-website/static/media/MA.50562368e90fedb41045a6a693a6291a.svg",
     "static/media/hero.svg": "/my-react-website/static/media/hero.5eb9e91924574fa08a8edc9422100314.svg",
     "static/media/logo.svg": "/my-react-website/static/media/logo.c2e508b6ab40864d0b7486d773a22ec0.svg",
+    "static/media/scalable.svg": "/my-react-website/static/media/scalable.b32553d446b68e843959094b081d366a.svg",
+    "static/media/customeapp.svg": "/my-react-website/static/media/customeapp.b0397ae03c8fab721d0d3e0c5a805fae.svg",
     "static/media/iso.svg": "/my-react-website/static/media/iso.563051d38df7749d4a7b269a270b947d.svg",
     "static/media/airspace.svg": "/my-react-website/static/media/airspace.3545bed4d3d48aa30d694d1eb0ee26b7.svg",
     "static/media/cloud-c.svg": "/my-react-website/static/media/cloud-c.9d98129d039ef9c39012d44ee3ddee58.svg",
+    "static/media/micro.svg": "/my-react-website/static/media/micro.78407b41fd87e46ae609427426e36c13.svg",
     "static/media/mobileapp.svg": "/my-react-website/static/media/mobileapp.1fe0b8c01ff8ce426e4d285e36823c38.svg",
+    "static/media/icosandro.svg": "/my-react-website/static/media/icosandro.d7a22c3f778d6c1798217e9a59879c31.svg",
     "static/media/aiicon.svg": "/my-react-website/static/media/aiicon.b697ca0ed15871622290412894c0f95e.svg",
+    "static/media/migrationserv.svg": "/my-react-website/static/media/migrationserv.43eefe9b98433a8dfc3ce152fbc466c7.svg",
+    "static/media/devops.svg": "/my-react-website/static/media/devops.f7564d5c33d80a79d0f71adcfecea544.svg",
     "static/media/slick.svg": "/my-react-website/static/media/slick.2630a3e3eab21c607e21.svg",
     "static/media/slick.eot": "/my-react-website/static/media/slick.a4e97f5a2a64f0ab1323.eot",
     "static/media/cloud5.svg": "/my-react-website/static/media/cloud5.173879788c0e4e898711be51ec82ab65.svg",
@@ -25,13 +33,14 @@
     "static/media/cloud4.svg": "/my-react-website/static/media/cloud4.5fccd1d19482b5d491cccb1edae04d95.svg",
     "static/media/cloud3.svg": "/my-react-website/static/media/cloud3.748d62fa7c5a09503879d2cf18eaa2a2.svg",
     "static/media/cloud1.svg": "/my-react-website/static/media/cloud1.0748c302ce7e7b4d23d25f2d3c49f8ed.svg",
+    "static/media/secure.svg": "/my-react-website/static/media/secure.429776efb7a9a688dd1a98e3341a91fe.svg",
     "index.html": "/my-react-website/index.html",
-    "main.b63d47ae.css.map": "/my-react-website/static/css/main.b63d47ae.css.map",
-    "main.350cc484.js.map": "/my-react-website/static/js/main.350cc484.js.map",
+    "main.166a82a6.css.map": "/my-react-website/static/css/main.166a82a6.css.map",
+    "main.c0ecaf41.js.map": "/my-react-website/static/js/main.c0ecaf41.js.map",
     "488.f00d2573.chunk.js.map": "/my-react-website/static/js/488.f00d2573.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b63d47ae.css",
-    "static/js/main.350cc484.js"
+    "static/css/main.166a82a6.css",
+    "static/js/main.c0ecaf41.js"
   ]
 }
