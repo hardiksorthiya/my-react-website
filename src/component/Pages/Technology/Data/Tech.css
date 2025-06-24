@@ -1,0 +1,31 @@
+.tech-cta-wrapper {
+  background: linear-gradient(90deg, var(--secondary-ckf-color), var(--bs-secondary));
+  padding: 100px 0;
+}
+
+.cta-left {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.cta-line {
+  width: 6px;
+  height: 40px;
+  background-color: white;
+}
+
+.cta-btn {
+  background-color: var(--primary-ckf-color);
+  color: var(--secondary-ckf-color);
+  border: none;
+  padding: 12px 30px;
+  font-weight: 600;
+  border-radius: 4px;
+  transition: all 0.3s ease;
+}
+
+.cta-btn:hover {
+  background-color: var(--secondary-ckf-color);
+  color: var(--primary-ckf-color);
+}

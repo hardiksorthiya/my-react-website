@@ -24,11 +24,11 @@ const Footer = () => {
           <Col lg={3} md={6} sm={12} className="mb-4">
             <h3 className="text-lg font-semibold mb-4">Technology</h3>
             <ul className="space-y-2 text-sm">
-              <li><a href="/technology/react">React</a></li>
-              <li><a href="/technology/magento">Magento</a></li>
-              <li><a href="/technology/nodejs">Node Js</a></li>
-              <li><a href="/technology/ui-figma">UI – Figma</a></li>
-              <li><a href="/technology/laravel">Laravel</a></li>
+              <li><Link to="/technology/react">React</Link></li>
+              <li><Link to="/technology/magento">Magento</Link></li>
+              <li><Link to="/technology/nodejs">Node Js</Link></li>
+              <li><Link to="/technology/ui-figma">UI – Figma</Link></li>
+              <li><Link to="/technology/laravel">Laravel</Link></li>
             </ul>
           </Col>
           <Col lg={3} md={6} sm={12} className="mb-4">

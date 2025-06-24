@@ -27,6 +27,7 @@ import AOS from 'aos';
 import 'aos/dist/aos.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import About from './component/Pages/About/Index';
+import ReactTech from './component/Pages/Technology/React/Index';
 
 function App() {
   useEffect(() => {
@@ -59,6 +60,7 @@ function App() {
         <Route path='/portfolio' element={<Portfolio />} />
         <Route path='/team' element={<OurTeam />} />
         <Route path='/about' element={<About/>} />
+        <Route path="/technology/react" element={<ReactTech />} />
 
         {/* Add more routes here as needed */}
       </Routes>

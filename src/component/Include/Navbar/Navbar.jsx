@@ -38,19 +38,19 @@ export default function HNavbar() {
             </NavDropdown>
 
             <NavDropdown title="Technology" id="technology-dropdown" >
-              <NavDropdown.Item href="#tech1">Tech 1</NavDropdown.Item>
-              <NavDropdown.Item href="#tech2">Tech 2</NavDropdown.Item>
+              <NavDropdown.Item as={Link} to="/technology/react">React</NavDropdown.Item>
+              <NavDropdown.Item as={Link} to="/technology/vue">Vue</NavDropdown.Item>
             </NavDropdown>
 
-            <Nav.Link href="#portfolio">Portfolio</Nav.Link>
-            <Nav.Link href="#casestudies">Case Studies</Nav.Link>
-            <Nav.Link href="#career">Career</Nav.Link>
-            <Nav.Link href="#aboutus">About Us</Nav.Link>
+            <Nav.Link as={Link} to="/portfolio">Portfolio</Nav.Link>
+            <Nav.Link as={Link} to="/casestudies">Case Studies</Nav.Link>
+            <Nav.Link as={Link} to="/career">Career</Nav.Link>
+            <Nav.Link as={Link} to="/aboutus">About Us</Nav.Link>
           </Nav>
 
           {/* CONTACT BUTTON RIGHT */}
           <div className="d-none d-lg-block">
-            <Button href="#contact" className="ms-3 ckf-button-dark">
+            <Button as={Link} to="/contact" className="ms-3 ckf-button-dark">
               Contact Us
             </Button>
           </div>
@@ -65,20 +65,24 @@ export default function HNavbar() {
         <Offcanvas.Body>
           <Nav className="flex-column">
             <NavDropdown title="Services" id="offcanvas-services-dropdown">
-              <NavDropdown.Item href="#service1">Service 1</NavDropdown.Item>
-              <NavDropdown.Item href="#service2">Service 2</NavDropdown.Item>
+              <NavDropdown.Item as={Link} to="/services/mobileapp">Mobile App Development</NavDropdown.Item>
+              <NavDropdown.Item as={Link} to="/services/cloudservice">Cloud Services</NavDropdown.Item>
+              <NavDropdown.Item as={Link} to="/services/ai">Artificial intelligence</NavDropdown.Item>
+              <NavDropdown.Item as={Link} to="/services/migration">Migration Services</NavDropdown.Item>
+              <NavDropdown.Item as={Link} to="/services/devops">DevOps Solutions</NavDropdown.Item>
+              <NavDropdown.Item as={Link} to="/services/micro">Microservices Architecture</NavDropdown.Item>
             </NavDropdown>
 
             <NavDropdown title="Technology" id="offcanvas-technology-dropdown">
-              <NavDropdown.Item href="#tech1">Tech 1</NavDropdown.Item>
-              <NavDropdown.Item href="#tech2">Tech 2</NavDropdown.Item>
+              <NavDropdown.Item as={Link} to="/technology/react">React</NavDropdown.Item>
+              <NavDropdown.Item as={Link} to="/technology/vue">Vue</NavDropdown.Item>
             </NavDropdown>
 
-            <Nav.Link href="#portfolio">Portfolio</Nav.Link>
-            <Nav.Link href="#casestudies">Case Studies</Nav.Link>
-            <Nav.Link href="#career">Career</Nav.Link>
-            <Nav.Link href="#aboutus">About Us</Nav.Link>
-            <Button href="#contact" variant="warning" className="mt-3">
+            <Nav.Link as={Link} to="/portfolio">Portfolio</Nav.Link>
+            <Nav.Link as={Link} to="/casestudies">Case Studies</Nav.Link>
+            <Nav.Link as={Link} to="/career">Career</Nav.Link>
+            <Nav.Link as={Link} to="/aboutus">About Us</Nav.Link>
+            <Button as={Link} to="/contact" variant="warning" className="mt-3">
               Contact Us
             </Button>
           </Nav>
