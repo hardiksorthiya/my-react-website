@@ -27,7 +27,13 @@ import AOS from 'aos';
 import 'aos/dist/aos.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import About from './component/Pages/About/Index';
-import ReactTech from './component/Pages/Technology/React/Index';
+import ReactTech from './component/Pages/Technology/React';
+import Python from './component/Pages/Technology/Python';
+import Laravel from './component/Pages/Technology/Laravel';
+import Nodejs from './component/Pages/Technology/Nodejs';
+import Aiml from './component/Pages/Technology/Aiml';
+import Mlops from './component/Pages/Technology/Mlops';
+import Spring from './component/Pages/Technology/Spring';
 
 function App() {
   useEffect(() => {
@@ -61,6 +67,12 @@ function App() {
         <Route path='/team' element={<OurTeam />} />
         <Route path='/about' element={<About/>} />
         <Route path="/technology/react" element={<ReactTech />} />
+        <Route path="/technology/python" element={<Python />} />
+        <Route path="/technology/laravel" element={<Laravel />} />
+        <Route path="/technology/nodejs" element={<Nodejs />} />
+        <Route path="/technology/aiml" element={<Aiml />} />
+        <Route path="/technology/mlops" element={<Mlops />} />
+        <Route path="/technology/spring" element={<Spring />} />
 
         {/* Add more routes here as needed */}
       </Routes>

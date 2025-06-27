@@ -1,10 +1,11 @@
 import React from "react";
 import { Container, Row, Col, Button } from "react-bootstrap";
+import { Link } from 'react-router-dom';
 import Planet from "../../../assets/images/hero.svg";
 import Cloud from "../../../assets/images/cloud1.svg";
 import Cloud2 from "../../../assets/images/cloud2.svg";
 import Cloud3 from "../../../assets/images/cloud3.svg";
-import Cloud4 from "../../../assets/images/cloud4.svg";
+import Ulka from "../../../assets/images/ulka.svg";
 import Planspace from "../../../assets/images/airspace.svg";
 
 export default function Hero() {
@@ -27,23 +28,45 @@ export default function Hero() {
         className="cloud-image-three img-fluid"
       />
       <img
-        src={Cloud4} // Replace with your actual image path
+        src={Cloud3} // Replace with your actual image path
         alt="Cloud Journey"
         className="cloud-image-four img-fluid"
       />
+      <div className="ulkaimagesecone">
+        <img src={Ulka} alt="Cloud Ulka" className="ulka-image-one img-fluid" />
+
+        <img src={Ulka} alt="Cloud Ulka" className="ulka-image-two img-fluid" />
+      </div>
+      <div className="ulkaimagesectwo">
+        <img src={Ulka} alt="Cloud Ulka" className="ulka-image-one img-fluid" />
+
+        <img src={Ulka} alt="Cloud Ulka" className="ulka-image-two img-fluid" />
+      </div>
+
+      <div className="ulkaimagesecthree">
+        <img src={Ulka} alt="Cloud Ulka" className="ulka-image-one img-fluid" />
+
+        <img src={Ulka} alt="Cloud Ulka" className="ulka-image-two img-fluid" />
+      </div>
 
       <Container className="position-relative">
         <Row className="align-items-center">
           {/* LEFT SIDE: TEXT */}
-          <Col lg={6} md={12} data-aos="fade-right" data-aos-duration="1500" data-aos-delay="500">
+          <Col
+            lg={6}
+            md={12}
+            data-aos="fade-right"
+            data-aos-duration="1500"
+            data-aos-delay="500"
+          >
             <h1 className="hero-title text-white">
               Boost your cloud <br />
               journey with our <br />
               certified teams.
             </h1>
             <div className="hero-buttons mt-4">
-              <Button className="me-3 ckf-button-dark">
-                <span className="me-2">Book A Consultation</span> 
+              <Button as={Link} to="/contact" className="me-3 ckf-button-dark">
+                <span className="me-2">Book A Consultation</span>
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="24"
@@ -57,7 +80,7 @@ export default function Hero() {
                   />
                 </svg>
               </Button>
-              <Button className="ckf-button-line">About Us</Button>
+              <Button as={Link} to="/about" className="ckf-button-line">About Us</Button>
             </div>
           </Col>
 
@@ -69,7 +92,12 @@ export default function Hero() {
             id="image-circle-section"
           >
             {/* Optional: Add a background circle or any other design element here */}
-            <div className="hero-circle position-relative"  data-aos="zoom-in-up" data-aos-duration="1500" data-aos-delay="800">
+            <div
+              className="hero-circle position-relative"
+              data-aos="zoom-in-up"
+              data-aos-duration="1500"
+              data-aos-delay="800"
+            >
               {/* circle one */}
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -146,7 +174,9 @@ export default function Hero() {
               src={Planet} // Replace with your actual image path
               alt="Cloud Journey"
               className="hero-image img-fluid"
-              data-aos="zoom-in-up" data-aos-duration="1500" data-aos-delay="500"
+              data-aos="zoom-in-up"
+              data-aos-duration="1500"
+              data-aos-delay="500"
             />
             {/* Planspace Image */}
             <img

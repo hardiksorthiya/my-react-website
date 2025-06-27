@@ -85,7 +85,7 @@ const TestimonialsAndClients = () => {
   };
 
   return (
-    <section className='testiMonial-home position-relative overflow-hidden ckf-dark-bg text-white'>
+    <section className='testiMonial-home position-relative overflow-hidden ckf-dark-bg text-white mt-4'>
       <img
         src={Cloud5} // Replace with your actual image path
         alt="Cloud Journey"

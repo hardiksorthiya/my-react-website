@@ -35,7 +35,7 @@ export default function Faq() {
   };
 
   return (
-    <section className='faq-ckf-hp'>
+    <section className='faq-ckf-hp mt-4 mb-5'>
       <Container>
         <Row>
           <Col lg={12}>

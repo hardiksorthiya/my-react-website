@@ -1,6 +1,7 @@
 import React from "react";
 import { Container, Row, Col, Button } from "react-bootstrap";
 import  CountUp  from 'react-countup';
+import { Link } from 'react-router-dom';
 import { useInView } from 'react-intersection-observer';
 import user_image from "../../../assets/images/user_image_1.svg";
 
@@ -11,7 +12,7 @@ export default function Numberstate({ sectionId }) {
       });
     
   return (
-    <section id={sectionId} className="number-state">
+    <section id={sectionId} className="number-state mt-4">
       <Container>
         <Row>
           <Col className=" text-center">
@@ -22,7 +23,7 @@ export default function Numberstate({ sectionId }) {
             <p className="right-about-content-home">
               From one-time projects to ongoing partnerships, we’re here to support your goals with agility and expertise.
             </p>
-            <Button className="me-3 ckf-button-dark">
+            <Button as={Link} to="/career" className="me-3 ckf-button-dark">
               <span className="me-2">Join With Us</span>
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -37,7 +38,7 @@ export default function Numberstate({ sectionId }) {
                 />
               </svg>
             </Button>
-            <Button className="ckf-button-line">
+            <Button  as={Link} to="/contact" className="ckf-button-line">
               <span className="me-2">Contact Us</span>
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -57,7 +58,7 @@ export default function Numberstate({ sectionId }) {
 
         <div className="map-withstatus">
           <Row>
-            <Col lg={12} className="users-image position-relative">
+            {/* <Col lg={12} className="users-image position-relative">
               <div className="user user1">
                 <img src={user_image} alt="User" />
               </div>
@@ -73,7 +74,7 @@ export default function Numberstate({ sectionId }) {
               <div className="user user5">
                 <img src={user_image} alt="User" />
               </div>
-            </Col>
+            </Col> */}
             <Col lg={12}>
               <div className="map-home">
                 <svg

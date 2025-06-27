@@ -39,13 +39,18 @@ export default function HNavbar() {
 
             <NavDropdown title="Technology" id="technology-dropdown" >
               <NavDropdown.Item as={Link} to="/technology/react">React</NavDropdown.Item>
-              <NavDropdown.Item as={Link} to="/technology/vue">Vue</NavDropdown.Item>
+              <NavDropdown.Item as={Link} to="/technology/python">Python</NavDropdown.Item>
+              <NavDropdown.Item as={Link} to="/technology/laravel">Laravel</NavDropdown.Item>
+              <NavDropdown.Item as={Link} to="/technology/nodejs">Node.js</NavDropdown.Item>
+              <NavDropdown.Item as={Link} to="/technology/aiml">AI/ML</NavDropdown.Item>
+              <NavDropdown.Item as={Link} to="/technology/mlops">MLOps</NavDropdown.Item>
+              <NavDropdown.Item as={Link} to="/technology/spring">Spring</NavDropdown.Item>
             </NavDropdown>
 
-            <Nav.Link as={Link} to="/portfolio">Portfolio</Nav.Link>
-            <Nav.Link as={Link} to="/casestudies">Case Studies</Nav.Link>
+            {/* <Nav.Link as={Link} to="/portfolio">Portfolio</Nav.Link> */}
+            <Nav.Link as={Link} to="/case-study">Case Studies</Nav.Link>
             <Nav.Link as={Link} to="/career">Career</Nav.Link>
-            <Nav.Link as={Link} to="/aboutus">About Us</Nav.Link>
+            <Nav.Link as={Link} to="/about">About Us</Nav.Link>
           </Nav>
 
           {/* CONTACT BUTTON RIGHT */}

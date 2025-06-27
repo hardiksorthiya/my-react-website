@@ -1,11 +1,12 @@
 import React from 'react';
 import { Container, Row, Col, Form, Button } from 'react-bootstrap';
+import { Link } from 'react-router-dom';
 import men from "../../../assets/images/men.svg";
 
 
 export default function ContactSection() {
   return (
-    <section className="contact-section">
+    <section className="contact-section mt-4">
       <Container>
         <Row className="align-items-center">
           {/* Form Side */}
@@ -63,7 +64,21 @@ Tell us what you need — we’re listening and ready to deliver.</p>
                   }
                 />
               </Form.Group>
-              <Button className="orange-button" type="submit">SEND MESSAGE</Button>
+              <Button className="me-3 ckf-button-dark" type='submit'>
+                <span className="me-2">Book A Consultation</span>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  height="13"
+                  viewBox="0 0 24 13"
+                >
+                  <path
+                    className="cloud_point_white"
+                    d="M19.64,4.62h-.3a4.09,4.09,0,0,0-4.07-3.31,4.17,4.17,0,0,0-2.49.81A4.39,4.39,0,0,0,9,0,4.28,4.28,0,0,0,4.63,4.19a3.25,3.25,0,0,0,0,.44h-.3A4.27,4.27,0,0,0,0,8.81,4.28,4.28,0,0,0,4.36,13H19.64A4.28,4.28,0,0,0,24,8.81,4.27,4.27,0,0,0,19.64,4.62Z"
+                    transform="translate(0)"
+                  />
+                </svg>
+              </Button>
             </Form>
           </Col>
 

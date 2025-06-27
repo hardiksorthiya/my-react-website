@@ -42,8 +42,8 @@ export default function Breadcum({ data }) {
         <p className="lead mt-3 text-white">{data.description}</p>
 
         {data.cta && (
-            <Button to={data.cta.link} className="me-3 ckf-button-dark">
-                <span className="me-2">{data.cta.text}</span> 
+            <Button as={Link} to={data.cta.link} className="me-3 ckf-button-dark">
+                <span className="me-2">{data.cta.text}</span>
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="24"

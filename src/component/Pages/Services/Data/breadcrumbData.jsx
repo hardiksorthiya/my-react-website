@@ -1,4 +1,5 @@
 import MobileAppBreadcumb from '../../../../assets/images/services/mobileapp/breadcum.png';
+
 const breadcrumbData = {
   mobileapp: {
     path: [
@@ -7,7 +8,7 @@ const breadcrumbData = {
       { name: 'Mobile App' }
     ],
     title: 'Mobile App Development',
-    description: 'Build high-performance, cross-platform apps tailored to your business goals.',
+    description: 'Craft powerful, user-friendly mobile apps that boost engagement and accelerate growth.',
     backgroundImage: MobileAppBreadcumb,
     cta: {
       text: 'GET IN TOUCH',
@@ -22,7 +23,7 @@ const breadcrumbData = {
       { name: 'Cloud Service' }
     ],
     title: 'Cloud Service',
-    description: 'Build high-performance, cross-platform apps tailored to your business goals.',
+    description: 'Enable scalable, secure, and flexible infrastructure with our expert cloud solutions.',
     backgroundImage: MobileAppBreadcumb,
     cta: {
       text: 'GET IN TOUCH',
@@ -34,10 +35,10 @@ const breadcrumbData = {
     path: [
       { name: 'Home', link: '/' },
       { name: 'Services', link: '/services' },
-      { name: 'Artificial intelligence' }
+      { name: 'Artificial Intelligence' }
     ],
-    title: 'Artificial intelligence',
-    description: 'Build high-performance, cross-platform apps tailored to your business goals.',
+    title: 'Artificial Intelligence',
+    description: 'Leverage intelligent automation and data-driven insights with our AI-powered services.',
     backgroundImage: MobileAppBreadcumb,
     cta: {
       text: 'GET IN TOUCH',
@@ -52,7 +53,7 @@ const breadcrumbData = {
       { name: 'Migration Service' }
     ],
     title: 'Migration Service',
-    description: 'Build high-performance, cross-platform apps tailored to your business goals.',
+    description: 'Seamlessly transition to modern platforms while minimizing downtime and maximizing performance.',
     backgroundImage: MobileAppBreadcumb,
     cta: {
       text: 'GET IN TOUCH',
@@ -67,7 +68,7 @@ const breadcrumbData = {
       { name: 'DevOps Solutions' }
     ],
     title: 'DevOps Solutions',
-    description: 'Build high-performance, cross-platform apps tailored to your business goals.',
+    description: 'Accelerate delivery, automate workflows, and optimize infrastructure with DevOps best practices.',
     backgroundImage: MobileAppBreadcumb,
     cta: {
       text: 'GET IN TOUCH',
@@ -82,16 +83,13 @@ const breadcrumbData = {
       { name: 'Microservices Architecture' }
     ],
     title: 'Microservices Architecture',
-    description: 'Build high-performance, cross-platform apps tailored to your business goals.',
+    description: 'Build modular, scalable systems that support rapid innovation and independent deployments.',
     backgroundImage: MobileAppBreadcumb,
     cta: {
       text: 'GET IN TOUCH',
       link: '/contact'
     }
-  },
-
-  // Add more entries like:
-  // webapp: { ... }
+  }
 };
 
 export default breadcrumbData;

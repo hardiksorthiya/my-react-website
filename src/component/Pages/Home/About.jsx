@@ -1,5 +1,6 @@
 import React from "react";
 import { Container, Row, Col, Button } from "react-bootstrap";
+import { Link } from 'react-router-dom';
 
 export default function About() {
   return (
@@ -16,7 +17,7 @@ export default function About() {
             <p className="right-about-content-home">
               At CloudKodeForm Technologies, we don’t just build solutions — we empower businesses to move forward with purpose. With a passionate team, cutting-edge technology, and a commitment to excellence, we deliver results that drive real impact.
             </p>
-            <Button className="third-button">
+            <Button as={Link} to="/about" className="third-button">
               <span className="me-2">MORE ABOUT US</span>
               <svg
                 xmlns="http://www.w3.org/2000/svg"

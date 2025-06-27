@@ -12,7 +12,7 @@ const services = [
   {
     icon: MobileAppicon,
     title: "Mobile App Development",
-    link: "#ser",
+    link: "/services/mobileapp",
     features: [
       "Custom Android & iOS apps tailored to your business",
       "Scalable, secure, and user-friendly interfaces",
@@ -24,6 +24,7 @@ const services = [
   {
     icon: Cloudserviceicon,
     title: "Cloud Services",
+    link: "/services/cloudservice",
     features: [
       "Scalable cloud server setups & migration",
       "Secure and reliable cloud infrastructure",
@@ -35,6 +36,7 @@ const services = [
   {
     icon: Aiserviceicon,
     title: "Artificial intelligence",
+    link: "/services/ai",
     features: [
       "Smart data-driven business solutions",
       "AI-powered analytics and insights",
@@ -46,6 +48,7 @@ const services = [
   {
     icon: Migration,
     title: "Migration Services",
+    link: "/services/migration",
     features: [
       "Hassle-free migration to modern platforms",
       "Minimal downtime & secure data transfer",
@@ -57,6 +60,7 @@ const services = [
   {
     icon: DevOpsicon,
     title: "DevOps Solutions",
+    link: "/services/devops",
     features: [
       "Continuous Integration & Deployment (CI/CD)",
       "Automated testing & build pipelines",
@@ -68,6 +72,7 @@ const services = [
   {
     icon: MicroService,
     title: "Microservices Architecture",
+    link: "/services/micro",
     features: [
       "Lightweight, independent service modules",
       "Easy scaling & maintenance",
@@ -84,7 +89,7 @@ export default function Services() {
       <Container>
         <Row>
           <Col lg={7} md={7}>
-            <h2 className="left-about-content-home">
+            <h2 className="left-about-content-home mt-5">
               Build Smarter. Launch Faster. Grow Stronger
               <span className="orange-dot">.</span>
             </h2>

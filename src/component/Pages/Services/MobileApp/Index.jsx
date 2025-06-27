@@ -12,7 +12,7 @@ import About from '../../../Pages/Services/MobileApp/About';
 import Whyus from '../../../Pages/Services/MobileApp/Whyus';
 import Contact from '../../../Pages/Services/MobileApp/Contact';
 import Faq from '../../../Pages/Services/MobileApp/Faq';
-import Contactus from '../../../Pages/Services/MobileApp/Contactus';
+import Contactus from '../../Home/Contact';
 
 export default function Index() {
   return (

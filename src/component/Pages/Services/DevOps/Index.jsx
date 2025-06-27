@@ -12,17 +12,17 @@ import About from '../MobileApp/About';
 import Whyus from '../MobileApp/Whyus';
 import Contact from '../MobileApp/Contact';
 import Faq from '../MobileApp/Faq';
-import Contactus from '../MobileApp/Contactus';
+import Contactus from '../../Home/Contact';
 
 export default function Index() {
   return (
     <>
    <Navbar />
    <Breadcrumb data={breadcrumbData.devops} /> 
-   <About data={aboutData.mobileapp} />
-   <Whyus data={whyusData.mobileapp}/>
-   <Contact data={contactData.mobileapp}/>
-   <Faq data={faqData.mobileapp}/>
+   <About data={aboutData.devops} />
+   <Whyus data={whyusData.devops}/>
+   <Contact data={contactData.devops}/>
+   <Faq data={faqData.devops}/>
    <Contactus/>
    <Footer/>
    </>
